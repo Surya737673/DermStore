@@ -7,7 +7,7 @@ const ShipingAddress = () => {
       <ShipingAdd>
           <form action="">
           <div>
-                  <p>1. Shiping Address</p>
+                  <p style={{marginBottom:"20px"}}>1. Shiping Address</p>
                   <label htmlFor="country">Country/Region</label>
                   <INPUT type="text" value="United States" disabled  width="96%" required/>
                   <label htmlFor="name">*Full Name</label>
@@ -20,7 +20,7 @@ const ShipingAddress = () => {
                   <p>Why do we need your number?</p>
               </div>
               <div>
-                  <p>2. Select Delivery Option</p>
+                  <p style={{marginBottom:"10px"}}>2. Select Delivery Option</p>
                   <div>
                   <section><BsInfoCircleFill /></section>
                     <h4>Please enter your address so we can calculate your delivery options.</h4>
@@ -41,9 +41,9 @@ const ShipingAddress = () => {
                       <img width="40px" height="40px" src="https://s1.thcdn.com/checkout/resources/images/8ba3dc816042268141a2205e3bfc3971.svg" alt="" />
                       <img width="40px" height="40px" src="https://s1.thcdn.com/checkout/resources/images/248074ffdeeeaeffed9c5db35f35fe45.svg" alt="" /><br />
                       <label htmlFor="card number">*Card Number</label>
-                      <INPUT type="text" width="96%"  required/>
+                      <INPUT type="text" width="98%"  required/>
                       <label htmlFor="name on card">*Name on card</label>
-                      <INPUT type="text" width="96%"  required/>
+                      <INPUT type="text" width="98%"  required/>
                       <label htmlFor="expiry date">*Expiry Date</label><br />
                       <SELECT className="first-select">
                       <option value="">MONTH</option>
@@ -72,7 +72,7 @@ const ShipingAddress = () => {
                       <option value="30">30</option>
                       </SELECT>
                       <label htmlFor="security code">*Security Code (CV2)</label><br />
-                       <INPUT type="text" width="43%" required/>
+                       <INPUT type="text" width="46%" required/>
                   </div>
               </div>
               <div className="button">

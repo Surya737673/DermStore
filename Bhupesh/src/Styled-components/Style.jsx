@@ -1,8 +1,47 @@
 import styled from "styled-components";
 
 export const MainContainer = styled.div`
+
 width:90% ;
 margin:auto ;
+display: flex;
+.div{
+  width:28% ;
+  margin-top:30px;
+  margin-left: 20px;
+  .first{
+    margin-bottom:20px ;
+    border-radius:5px ;
+    div{
+      width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #F2F2F2 ;
+    }
+    div:first-child p{
+      font-size: 30px;
+    }
+  }
+  div:nth-child(2){
+    
+    p{
+      font-size: 14px;
+    }
+    p:first-child{
+      color:#4E7D1E ;
+      font-weight:600 ;
+      display:flex;
+    /* align-items: center; */
+      span{
+       color:#4E7D1E ;
+       font-size:17px;
+       margin-left:2px ;
+      }
+    }
+  }
+}
 `;
 // -------------------------------------------------------------------------------------
 export const Container = styled.div`
@@ -80,8 +119,10 @@ justify-content: space-around;
 `;
 // --------------------------------------------------------------------------------
 export const TABLE = styled.table`
-border:1px solid black;
-width:60%;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+width:70%;
+padding:20px;
+margin:30px 0px;
 span{
     cursor:pointer;
     font-size: 20px;
@@ -97,7 +138,19 @@ button{
     font-size:20px;
     cursor: pointer;
 }
-
+td{
+  margin:20px 0px;
+  padding:10px 0px;
+}
+thead{
+  font-weight:600 ;
+}
+thead td:first-child{
+  padding-left:10px;
+}
+td:nth-last-child(2){
+  font-weight: 600;
+}
 `;
 // ----------------------------------------------------------------------------------------
   
@@ -138,10 +191,9 @@ input~p{
 }
 div:nth-child(2){
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  width:59%;
+  width:60%;
   background-color:#fff ;
-  height:100px;
-  padding:20px ;
+  padding:20px;
   margin:20px 0px ;
   p{
     margin-bottom:5px ;
@@ -150,7 +202,7 @@ div{
   display: flex;
   align-items: center;
   border-radius:5px ;
-  width:93% ;
+  width:97% ;
   height:10px;
   margin: 0px;
   background-color:#E6F0F8 ;
@@ -169,7 +221,7 @@ div{
 }
 div:nth-child(3){
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  width:59%;
+  width:60%;
   background-color:#fff ;
   padding:20px ;
   margin:20px 0px ;
@@ -180,8 +232,9 @@ div:nth-child(3){
     border-radius:5px;
     position:relative;
     height:auto ;
+    margin:20px;
     h2{
-      top:-7%;
+      top:-2%;
       right:-11px ;
       position:absolute;
       background-color:#fff;
@@ -284,7 +337,6 @@ select{
 h3{
   font-weight: 100;
 }
-
 `;
 
 // ---------------------------------------------------------------------------------------------
@@ -292,7 +344,7 @@ export const LOGO = styled.div`
 position:fixed;
 width:100%;
 background-color: #fff;
-padding:10px 0px;
+padding:20px 0px;
 display: flex;
 justify-content: center;
 top:0px ;
@@ -308,7 +360,7 @@ img{
 `;
 
 export const SELECT = styled.select`
-width:47%;
+width:46%;
 padding:10px;
 border-radius:5px;
 border:1px solid #8C8C8C;

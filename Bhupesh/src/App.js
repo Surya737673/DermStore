@@ -11,7 +11,7 @@ function App() {
         <Route path="cart" element={<Cart />} />
         <Route path="checkout" element={<Checkout />} />
       </Routes>
-      <Cart />
+      {/* <Cart /> */}
       <Checkout />
     </>
   );

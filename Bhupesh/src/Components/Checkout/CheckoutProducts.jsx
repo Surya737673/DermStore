@@ -9,12 +9,14 @@ const CheckoutProducts = () => {
         dispatch(getCartProducts());
     }, []);
 
+    let total;
     if (myState.length >0) {
-        const total = myState.reduce((a, b) => {
-            console.log(a.price)
-            return a.price + b.price;
-        })
-        // console.log(total)
+        total = myState.reduce((a, b) => {
+            return a + b.price*b.qty;
+        },0)
+        console.log(total)
+    } else {
+        total = 0;
     }
    
   return (
@@ -51,7 +53,7 @@ const CheckoutProducts = () => {
           </div>
           <div>
               <h3>Total Pay</h3>
-              <p>Total</p>
+              <p>${total}</p>
           </div>
         </CartProduct>
   )

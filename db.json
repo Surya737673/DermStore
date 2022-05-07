@@ -1,4 +1,175 @@
 {
+  "men": [
+    {
+      "id": 1,
+      "title": "Olaplex No.0 Intensive Bond Builder 155ml",
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/13716607-1174952624510196.jpg",
+      "price": 28,
+      "qty": 1
+    },
+    {
+      "id": 2,
+      "title": "dpHUE ACV Lightweight Conditioner 200ml ",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13479066-8314924098363690.jpg",
+      "price": 28,
+      "qty": 1
+    },
+    {
+      "id": 3,
+      "title": "Briogeo Megastrength+ Dandruff Relief Shampoo 248ml",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13645144-7074939935350781.jpg",
+      "price": 42,
+      "qty": 1
+    },
+    {
+      "id": 4,
+      "title": "dpHUE ACV Lightweight Conditioner 250ml",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13657247-1244941045350220.jpg",
+      "price": 30,
+      "qty": 1
+    },
+    {
+      "id": 5,
+      "title": "Olaplex No. 4 Bond Maintenance Shampoo (8.5 fl. oz.)",
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/12597163-1384871574980667.jpg",
+      "price": 28,
+      "qty": 1
+    },
+    {
+      "id": 6,
+      "title": "Fekkai Full Blown Volume Texturizer Dry Texturizing Spray 5 oz",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13633676-1594938485935134.jpg",
+      "price": 24.58,
+      "qty": 1
+    },
+    {
+      "id": 7,
+      "title": "Oribe Gold Lust Repair Restore Shampoo (8.5 fl. oz.)",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12915557-2954917112863726.jpg",
+      "price": 49,
+      "qty": 1
+    },
+    {
+      "id": 8,
+      "title": "Olaplex No. 3 Hair Perfector (3.3 fl. oz.)  Hair Perfector",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12597161-1214871574856017.jpg",
+      "price": 28,
+      "qty": 1
+    },
+    {
+      "id": 9,
+      "title": "dpHUE ACV Lightweight Conditioner 200ml",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13479066-8314924098363690.jpg",
+      "price": 28,
+      "qty": 1
+    },
+    {
+      "id": 10,
+      "title": "R+Co DALLAS Biotin Thickening Shampoo (8.5 fl. oz.)",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12901179-1534866391928052.jpg",
+      "price": 32,
+      "qty": 1
+    },
+    {
+      "id": 11,
+      "title": "Olaplex No.5 Bond Maintenance Conditioner 8.5 oz",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12597164-1244777647709491.jpg",
+      "price": 28,
+      "qty": 1
+    },
+    {
+      "id": 12,
+      "title": "Christophe Robin Cleansing Purifying Scrub with Sea Salt 75ml",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12642437-1384891471591053.jpg",
+      "price": 19,
+      "qty": 1
+    },
+    {
+      "id": 13,
+      "title": "Alterna My Hair My Canvas Cool Hydrations Nourishing Masque 198ml",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13226638-1844912008498615.jpg",
+      "price": 35,
+      "qty": 1
+    },
+    {
+      "id": 14,
+      "title": "Olaplex No. 7 Bonding Oil (1 fl. oz.)  Bonding Oil",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12597166-1134871572767741.jpg",
+      "price": 28,
+      "qty": 1
+    },
+    {
+      "id": 15,
+      "title": "Alterna CAVIAR Anti-Aging Replenishing Moisture Conditioner (16.5 fl. oz.)",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11286093-1634935519367608.jpg",
+      "price": 55,
+      "qty": 1
+    },
+    {
+      "id": 16,
+      "title": "Alterna My Hair My Canvas Glow Crazy Shine Booster",
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/13226639-1544912008549582.jpg",
+      "price": 29,
+      "qty": 1
+    },
+    {
+      "id": 17,
+      "title": "Alterna My Hair My Canvas Jelly Fix Repair Booster",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11286093-1634935519367608.jpg",
+      "price": 29,
+      "qty": 1
+    },
+    {
+      "id": 18,
+      "title": "R+Co TELEVISION Perfect Hair Conditioner (8 fl. oz.)",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12902036-1674866432051675.jpg",
+      "price": 32,
+      "qty": 1
+    },
+    {
+      "id": 19,
+      "title": "UNITE Hair 7SECONDS Detangler (8 oz.)  Hair 7SECONDS",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11218626-4084871276230596.jpg",
+      "price": 32.5,
+      "qty": 1
+    },
+    {
+      "id": 20,
+      "title": "Oribe Hair Alchemy Fortifying Treatment Serum 175ml",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13521538-9254921014225177.jpg",
+      "price": 64,
+      "qty": 1
+    },
+    {
+      "id": 21,
+      "title": "dpHUE Color Fresh Thermal Protection Spray 160ml",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13479070-1894924098736830.jpg",
+      "price": 28,
+      "qty": 1
+    },
+    {
+      "id": 22,
+      "title": "Oribe Hair Alchemy Resilience Conditioner 200ml",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13521537-1204921014533901.jpg",
+      "price": 52,
+      "qty": 1
+    },
+    {
+      "id": 23,
+      "title": "Oribe Hair Alchemy Resilience Shampoo 250ml",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13521536-3664921013975583.jpg",
+      "price": 49,
+      "qty": 1
+    },
+    {
+      "id": 24,
+      "title": "miriam quevedo Black Baccara Scalp  (2 piece)",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12902731-1814904188580325.jpg",
+      "price": 100,
+      "qty": 1
+    }
+  ],
+
   "SkinMedica":[
     {"id":1,"image":"https://static.thcdn.com/images/medium/webp/widgets/208-us/10/0428-STDCRE-35244-DS-MB-Dermstore-May-Photography-THG0034748-PRIORITY-SHOTS-16-HP_LPSQ_BANNER_676x556-041110.jpg","title":"SkinCeuticals Triple Lipid Restore 242 (1.6 fl. oz.)","price":136.00,"reviews":1647},
     {"id":2,"image":"https://static.thcdn.com/images/large/webp//productimg/1600/1600/12596429-3594871019700125.jpg","title":"SkinMedica TNS Advanced+ Serum (1 oz.)","MSRP":295.00,"price":250.75,"reviews":221},
@@ -57,9 +228,9 @@
     {"id":6,"image":"https://static.thcdn.com/images/small/webp/widgets/208-us/03/spring-skincare-routine-082303.jpg","title":"Your Spring Skin Care Routine with Nazanin Saedi, MD"},
     {"id":7,"image":"https://static.thcdn.com/images/small/webp/widgets/208-us/40/skinceuticals-products-widget-110940.jpg","title":"7 Overnight Treatments for Super Glowy Skin"},
     {"id":8,"image":"https://static.thcdn.com/images/small/webp/widgets/208-us/19/original-skincare-order-073119.jpg","title":"In What Order Do I Apply My Skin Care Products?"}
+  ],
+  "cartProducts": [
+   
   ]
-  
 
-
-  
 }

@@ -1,7 +1,7 @@
 import React from 'react'
-import { Navbar } from '../Homepage1/Navbar';
+import { Navbar } from '../../Components/Homepage1/Navbar';
 import { SimpleSlider } from '../Homepage2/Slider1';
-import { Slider2 } from '../Homepage2/slider2';
+import { Slider2 } from '../../Components/Homepage2/slider2';
 import { ShopByCategory } from '../Homepage2/ShopByCategory';
 import { Slider3 } from '../Homepage2/slider3';
 import{Slider4}  from "../Homepage2/slider4"
@@ -26,3 +26,4 @@ export const Home = () => {
     </>
   )
 }
+

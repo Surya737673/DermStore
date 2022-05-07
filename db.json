@@ -502,16 +502,7 @@
       "MSRP": 295,
       "price": 250.75,
       "reviews": 221,
-      "qty": 1
-    },
-    {
-      "id": 3,
-      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11290631-5864870995720591.jpg",
-      "title": "SkinMedica HA5 Rejuvenating Hydrator (2 oz.)",
-      "MSRP": 184,
-      "price": 156.4,
-      "reviews": 507,
-      "qty": 1
+      "qty": 2
     }
   ]
 }

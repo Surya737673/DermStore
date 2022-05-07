@@ -169,68 +169,349 @@
       "qty": 1
     }
   ],
-
-  "SkinMedica":[
-    {"id":1,"image":"https://static.thcdn.com/images/medium/webp/widgets/208-us/10/0428-STDCRE-35244-DS-MB-Dermstore-May-Photography-THG0034748-PRIORITY-SHOTS-16-HP_LPSQ_BANNER_676x556-041110.jpg","title":"SkinCeuticals Triple Lipid Restore 242 (1.6 fl. oz.)","price":136.00,"reviews":1647},
-    {"id":2,"image":"https://static.thcdn.com/images/large/webp//productimg/1600/1600/12596429-3594871019700125.jpg","title":"SkinMedica TNS Advanced+ Serum (1 oz.)","MSRP":295.00,"price":250.75,"reviews":221},
-    {"id":3,"image":"https://static.thcdn.com/images/large/webp//productimg/1600/1600/11290631-5864870995720591.jpg","title":"SkinMedica HA5 Rejuvenating Hydrator (2 oz.)","MSRP":184.00,"price":156.40,"reviews":507},
-    {"id":4,"image":"https://static.thcdn.com/images/large/webp//productimg/1600/1600/11289657-9384876690289403.jpg","title":"SkinMedica AHA/BHA Exfoliating Cleanser (6 fl. oz.)","MSRP":48.00,"price":40.80,"reviews":339},
-    {"id":5,"image":"https://static.thcdn.com/images/large/webp//productimg/1600/1600/11289683-2074871019620370.jpg","title":"SkinMedica TNS Eye Repair (0.5 oz.)","MSRP":106.00,"price":90.10,"reviews":374},
-    {"id":6,"image":"https://static.thcdn.com/images/large/webp//productimg/1600/1600/11396212-1194870995675144.jpg","title":"SkinMedica Lytera 2.0 Pigment ","MSRP":160.00,"price":136.00,"reviews":280},
-    {"id":7,"image":"https://static.thcdn.com/images/large/webp//productimg/1600/1600/11289677-3634870995577404.jpg","title":"SkinMedica Age Defense Retinol ","MSRP":80.00,"price":60.00,"reviews":269},
-    {"id":8,"image":"https://static.thcdn.com/images/large/webp//productimg/1600/1600/11289682-1284871019539829.jpg","title":"SkinMedica TNS Essential Serum (1 oz.)","MSRP":281.00,"price":238.85,"reviews":583},
-    {"id":9,"image":"https://static.thcdn.com/images/large/webp/productimg/1600/1600/11289661-1794453993724103.jpg","title":"SkinMedica Facial Cleanser","MSRP":40.00,"price":34.00,"reviews":1}
+  "SkinMedica": [
+    {
+      "id": 1,
+      "image": "https://static.thcdn.com/images/medium/webp/widgets/208-us/10/0428-STDCRE-35244-DS-MB-Dermstore-May-Photography-THG0034748-PRIORITY-SHOTS-16-HP_LPSQ_BANNER_676x556-041110.jpg",
+      "title": "SkinCeuticals Triple Lipid Restore 242",
+      "price": 136,
+      "reviews": 1647,
+      "qty": 1
+    },
+    {
+      "id": 2,
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12596429-3594871019700125.jpg",
+      "title": "SkinMedica TNS Advanced+ Serum (1 oz.)",
+      "MSRP": 295,
+      "price": 250.75,
+      "reviews": 221,
+      "qty": 1
+    },
+    {
+      "id": 3,
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11290631-5864870995720591.jpg",
+      "title": "SkinMedica HA5 Rejuvenating Hydrator (2 oz.)",
+      "MSRP": 184,
+      "price": 156.4,
+      "reviews": 507,
+      "qty": 1
+    },
+    {
+      "id": 4,
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11289657-9384876690289403.jpg",
+      "title": "SkinMedica AHA/BHA Exfoliating Cleanser ",
+      "MSRP": 48,
+      "price": 40.8,
+      "reviews": 339,
+      "qty": 1
+    },
+    {
+      "id": 5,
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11289683-2074871019620370.jpg",
+      "title": "SkinMedica TNS Eye Repair (0.5 oz.)",
+      "MSRP": 106,
+      "price": 90.1,
+      "reviews": 374,
+      "qty": 1
+    },
+    {
+      "id": 6,
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11396212-1194870995675144.jpg",
+      "title": "SkinMedica Lytera 2.0 Pigment ",
+      "MSRP": 160,
+      "price": 136,
+      "reviews": 280,
+      "qty": 1
+    },
+    {
+      "id": 7,
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11289677-3634870995577404.jpg",
+      "title": "SkinMedica Age Defense Retinol ",
+      "MSRP": 80,
+      "price": 60,
+      "reviews": 269,
+      "qty": 1
+    },
+    {
+      "id": 8,
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11289682-1284871019539829.jpg",
+      "title": "SkinMedica TNS Essential Serum (1 oz.)",
+      "MSRP": 281,
+      "price": 238.85,
+      "reviews": 583,
+      "qty": 1
+    },
+    {
+      "id": 9,
+      "image": "https://static.thcdn.com/images/large/webp/productimg/1600/1600/11289661-1794453993724103.jpg",
+      "title": "SkinMedica Facial Cleanser",
+      "MSRP": 40,
+      "price": 34,
+      "reviews": 1,
+      "qty": 1
+    }
   ],
-  "BestSellers":[
-    {"id":1,"image":"https://static.thcdn.com/images/large/webp//productimg/1600/1600/11289609-1174892770940184.jpg","title":"SkinCeuticals C E Ferulic (1 fl. oz.)","price":169.00,"reviews":4377},
-    {"id":2,"image":"https://static.thcdn.com/images/large/webp//productimg/1600/1600/11370303-1074944341868735.jpg","title":"EltaMD UV Clear Broad-Spectrum SPF 46","price":39.00,"reviews":4336},
-    {"id":3,"image":"https://static.thcdn.com/images/large/webp//productimg/1600/1600/12596429-3594871019700125.jpg","title":"SkinMedica TNS Advanced+ Serum (1 oz.)","price":250.75,"reviews":221},
-    {"id":4,"image":"https://static.thcdn.com/images/large/webp//productimg/1600/1600/11588281-8764882139037003.jpg","title":"Sunday Riley GOOD GENES All-In-One","price":122.00,"reviews":654},
-    {"id":5,"image":"https://static.thcdn.com/images/large/webp//productimg/1600/1600/11174178-1044909106371632.jpg","title":"Paula's Choice SKIN PERFECTING 2","price":32.00,"reviews":374},
-    {"id":6,"image":"https://static.thcdn.com/images/large/webp//productimg/1600/1600/12915711-2084866563283492.jpg","title":"Oribe Gold Lust Repair  ","price":157.00,"reviews":27},
-    {"id":7,"image":"https://static.thcdn.com/images/large/webp//productimg/1600/1600/11291496-1824871578503201.jpg","title":"iS Clinical Cleansing Complex (6 fl. oz.)-tin","price":45,"reviews":849},
-    {"id":8,"image":"https://static.thcdn.com/images/large/webp//productimg/1600/1600/11370312-1044938634157826.jpg","title":"EltaMD UV Clear Broad-Spectrum SPF 46  ","price":41.00,"reviews":1132}
-    
+  "BestSellers": [
+    {
+      "id": 1,
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11289609-1174892770940184.jpg",
+      "title": "SkinCeuticals C E Ferulic (1 fl. oz.)",
+      "price": 169,
+      "reviews": 4377,
+      "qty": 1
+    },
+    {
+      "id": 2,
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11370303-1074944341868735.jpg",
+      "title": "EltaMD UV Clear Broad-Spectrum SPF 46",
+      "price": 39,
+      "reviews": 4336,
+      "qty": 1
+    },
+    {
+      "id": 3,
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12596429-3594871019700125.jpg",
+      "title": "SkinMedica TNS Advanced+ Serum (1 oz.)",
+      "price": 250.75,
+      "reviews": 221,
+      "qty": 1
+    },
+    {
+      "id": 4,
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11588281-8764882139037003.jpg",
+      "title": "Sunday Riley GOOD GENES All-In-One",
+      "price": 122,
+      "reviews": 654,
+      "qty": 1
+    },
+    {
+      "id": 5,
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11174178-1044909106371632.jpg",
+      "title": "Paula's Choice SKIN PERFECTING 2",
+      "price": 32,
+      "reviews": 374,
+      "qty": 1
+    },
+    {
+      "id": 6,
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12915711-2084866563283492.jpg",
+      "title": "Oribe Gold Lust Repair  ",
+      "price": 157,
+      "reviews": 27,
+      "qty": 1
+    },
+    {
+      "id": 7,
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11291496-1824871578503201.jpg",
+      "title": "iS Clinical Cleansing Complex (6 fl. oz.)-tin",
+      "price": 45,
+      "reviews": 849,
+      "qty": 1
+    },
+    {
+      "id": 8,
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11370312-1044938634157826.jpg",
+      "title": "EltaMD UV Clear Broad-Spectrum SPF 46  ",
+      "price": 41,
+      "reviews": 1132,
+      "qty": 1
+    }
   ],
-  "Neocutis":[
-    
-    {"id":2,"image":"https://static.thcdn.com/images/small/webp//productimg/original/12664555-1704871739992403.jpg","title":"Neocutis LUMIÈRE® FIRM RICHE Extra Moisturizing Illuminating Tightening Eye Cream (0.5 fl. oz.)","price":118.00,"reviews":62},
-    {"id":3,"image":"https://static.thcdn.com/images/large/webp//productimg/1600/1600/11291062-5634871742412089.jpg","title":"Neocutis LUMIÈRE® Illuminating Eye Cream (0.5 fl. oz.)","price":97,"reviews":435},
-    {"id":4,"image":"https://static.thcdn.com/images/large/webp//productimg/1600/1600/12664554-1004871739941589.jpg","title":"Neocutis LUMIÈRE® FIRM Illuminating Tightening Eye Cream (0.5 fl. oz.)","price":108.00,"reviews":53},
-    {"id":5,"image":"https://static.thcdn.com/images/large/webp//productimg/1600/1600/12453448-1934871739712818.jpg","title":"Neocutis BIO SERUM FIRM Rejuvenating Growth Factor and Peptide Treatment (1 fl. oz.)","price":279.00,"reviews":49},
-    {"id":6,"image":"https://static.thcdn.com/images/large/webp//productimg/1600/1600/11380203-8304871739045636.jpg","title":"Neocutis JOURNE Revitalizing Day Cream SPF 30 (1.69 fl. oz.)","price":189.00,"reviews":33},
-    {"id":7,"image":"https://static.thcdn.com/images/small/webp//productimg/original/12901283-9564871740097127.jpg","title":"Neocutis NEO CLEANSE Gentle Skin Cleanser (125ml)","price":38.00,"reviews":23},
-    {"id":8,"image":"https://static.thcdn.com/images/large/webp//productimg/1600/1600/11903200-9774871739506130.jpg","title":"Neocutis NEO Firm Neck Decollete Tightening Cream (50 g.)","price":139.00,"reviews":39},
-    {"id":9,"image":"https://static.thcdn.com/images/large/webp//productimg/1600/1600/11291519-9074871742575709.jpg","title":"Neocutis NEO CLEANSE Gentle Skin Cleanser (125ml)","price":38.00,"reviews":21}
+  "Neocutis": [
+    {
+      "id": 2,
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/12664555-1704871739992403.jpg",
+      "title": "Neocutis LUMIÈRE® FIRM RICHE Extra Moisturizing Illuminating Tightening ",
+      "price": 118,
+      "reviews": 62,
+      "qty": 1
+    },
+    {
+      "id": 3,
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11291062-5634871742412089.jpg",
+      "title": "Neocutis LUMIÈRE® Illuminating Eye Cream (0.5 fl. oz.)",
+      "price": 97,
+      "reviews": 435,
+      "qty": 1
+    },
+    {
+      "id": 4,
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12664554-1004871739941589.jpg",
+      "title": "Neocutis LUMIÈRE® FIRM Illuminating Tightening Eye Cream (0.5 fl. oz.)",
+      "price": 108,
+      "reviews": 53,
+      "qty": 1
+    },
+    {
+      "id": 5,
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12453448-1934871739712818.jpg",
+      "title": "Neocutis BIO SERUM FIRM Rejuvenating Growth Factor and Peptide Treatment (1 fl. oz.)",
+      "price": 279,
+      "reviews": 49,
+      "qty": 1
+    },
+    {
+      "id": 6,
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11380203-8304871739045636.jpg",
+      "title": "Neocutis JOURNE Revitalizing Day Cream SPF 30 (1.69 fl. oz.)",
+      "price": 189,
+      "reviews": 33,
+      "qty": 1
+    },
+    {
+      "id": 7,
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/12901283-9564871740097127.jpg",
+      "title": "Neocutis NEO CLEANSE Gentle Skin Cleanser (125ml)",
+      "price": 38,
+      "reviews": 23,
+      "qty": 1
+    },
+    {
+      "id": 8,
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11903200-9774871739506130.jpg",
+      "title": "Neocutis NEO Firm Neck Decollete Tightening Cream (50 g.)",
+      "price": 139,
+      "reviews": 39,
+      "qty": 1
+    },
+    {
+      "id": 9,
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11291519-9074871742575709.jpg",
+      "title": "Neocutis NEO CLEANSE Gentle Skin Cleanser (125ml)",
+      "price": 38,
+      "reviews": 21,
+      "qty": 1
+    }
   ],
-  "Trending":[
-    {"id":1,"image":"https://static.thcdn.com/images/small/webp/widgets/208-us/23/Site_294x368-080123.png","title":"Best Skin Care Beauty Products"},
-    {"id":2,"image":"https://static.thcdn.com/images/small/webp/widgets/208-us/17/HomePageBannerNewRoutineMobile-084945-074617.jpg","title":"Best Retinol Creams & Serums"},
-    {"id":3,"image":"https://static.thcdn.com/images/small/webp/widgets/208-us/15/original-eltamd-sb-10-20-090822-081515.jpg","title":"SPF & Sunscreen"},
-    {"id":4,"image":"https://static.thcdn.com/images/small/webp/widgets/208-us/32/Trending-_Build_Your_Own_Routine-082732.png","title":"Best Retinol Creams & Serums"},
-    {"id":5,"image":"https://static.thcdn.com/images/small/webp/widgets/208-us/53/SITE_Mobile_600%E2%80%8A%C3%97%E2%80%8A750-080553.jpg","title":"Build Your Skin Care Routine"},
-    {"id":6,"image":"https://static.thcdn.com/images/small/webp/widgets/208-us/04/Wellness_White-061404.png","title":"Self-Care & Wellness"},
-    {"id":7,"image":"https://static.thcdn.com/images/small/webp/widgets/208-us/18/Olaplex_trending_white-055218.png","title":"Trending Products"}  
+  "Trending": [
+    {
+      "id": 1,
+      "image": "https://static.thcdn.com/images/small/webp/widgets/208-us/23/Site_294x368-080123.png",
+      "title": "Best Skin Care Beauty Products"
+    },
+    {
+      "id": 2,
+      "image": "https://static.thcdn.com/images/small/webp/widgets/208-us/17/HomePageBannerNewRoutineMobile-084945-074617.jpg",
+      "title": "Best Retinol Creams & Serums"
+    },
+    {
+      "id": 3,
+      "image": "https://static.thcdn.com/images/small/webp/widgets/208-us/15/original-eltamd-sb-10-20-090822-081515.jpg",
+      "title": "SPF & Sunscreen"
+    },
+    {
+      "id": 4,
+      "image": "https://static.thcdn.com/images/small/webp/widgets/208-us/32/Trending-_Build_Your_Own_Routine-082732.png",
+      "title": "Best Retinol Creams & Serums"
+    },
+    {
+      "id": 5,
+      "image": "https://static.thcdn.com/images/small/webp/widgets/208-us/53/SITE_Mobile_600%E2%80%8A%C3%97%E2%80%8A750-080553.jpg",
+      "title": "Build Your Skin Care Routine"
+    },
+    {
+      "id": 6,
+      "image": "https://static.thcdn.com/images/small/webp/widgets/208-us/04/Wellness_White-061404.png",
+      "title": "Self-Care & Wellness"
+    },
+    {
+      "id": 7,
+      "image": "https://static.thcdn.com/images/small/webp/widgets/208-us/18/Olaplex_trending_white-055218.png",
+      "title": "Trending Products"
+    }
   ],
-  "NewArrivals":[
-    {"id":1,"image":"https://static.thcdn.com/images/large/webp//productimg/1600/1600/13657247-1244941045350220.jpg","price":30},
-    {"id":2,"image":"https://static.thcdn.com/images/large/webp//productimg/1600/1600/13629480-5194951151586153.jpg","price":59},
-    {"id":3,"image":"https://static.thcdn.com/images/large/webp//productimg/1600/1600/13623816-2074937178605466.jpg","price":72},
-    {"id":4,"image":"https://static.thcdn.com/images/large/webp//productimg/1600/1600/13656371-7224949219395500.jpg","price":40},
-    {"id":5,"image":"https://static.thcdn.com/images/large/webp//productimg/1600/1600/13556035-1274949338049589.jpg","price":34}
+  "NewArrivals": [
+    {
+      "id": 1,
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13657247-1244941045350220.jpg",
+      "price": 30,
+      "qty": 1
+    },
+    {
+      "id": 2,
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13629480-5194951151586153.jpg",
+      "price": 59,
+      "qty": 1
+    },
+    {
+      "id": 3,
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13623816-2074937178605466.jpg",
+      "price": 72,
+      "qty": 1
+    },
+    {
+      "id": 4,
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13656371-7224949219395500.jpg",
+      "price": 40,
+      "qty": 1
+    },
+    {
+      "id": 5,
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13556035-1274949338049589.jpg",
+      "price": 34,
+      "qty": 1
+    }
   ],
-  "Blog":[
-    {"id":1,"image":"https://blogscdn.thehut.net/app/uploads/sites/1160/2022/04/FOLLAIN-147-1_1650900938.jpg","title":"Celebrate Earth Month—Meet Tara Foley, Founder of Follain"},
-    {"id":2,"image":"https://blogscdn.thehut.net/app/uploads/sites/1160/2022/04/Screenshot-2022-04-25-180222_1650924154.png","title":"Your Mother’s Day Gift Guide"},
-    {"id":3,"image":"https://blogscdn.thehut.net/app/uploads/sites/1160/2022/04/webimage-C1EFE575-5DC1-4A4D-96F6A11C36EC022D_1650052892.png","title":"Conscious Beauty: A More Mindful Approach to Your Routine"},
-    {"id":4,"image":"https://blogscdn.thehut.net/app/uploads/sites/1160/2021/02/0316_THG0034711_DS_APRIL_22_SHOT_1649086862-593x392.jpg","title":"Which SkinCeuticals Vitamin C Serum Is Right for You?"},
-    {"id":5,"image":"https://static.thcdn.com/images/small/webp/widgets/208-us/12/how_to_pick_eltamd_sunscreen-091512.jpg","title":"How to Pick the Right EltaMD Sunscreen for You"},
-    {"id":6,"image":"https://static.thcdn.com/images/small/webp/widgets/208-us/03/spring-skincare-routine-082303.jpg","title":"Your Spring Skin Care Routine with Nazanin Saedi, MD"},
-    {"id":7,"image":"https://static.thcdn.com/images/small/webp/widgets/208-us/40/skinceuticals-products-widget-110940.jpg","title":"7 Overnight Treatments for Super Glowy Skin"},
-    {"id":8,"image":"https://static.thcdn.com/images/small/webp/widgets/208-us/19/original-skincare-order-073119.jpg","title":"In What Order Do I Apply My Skin Care Products?"}
+  "Blog": [
+    {
+      "id": 1,
+      "image": "https://blogscdn.thehut.net/app/uploads/sites/1160/2022/04/FOLLAIN-147-1_1650900938.jpg",
+      "title": "Celebrate Earth Month—Meet Tara Foley, Founder of Follain"
+    },
+    {
+      "id": 2,
+      "image": "https://blogscdn.thehut.net/app/uploads/sites/1160/2022/04/Screenshot-2022-04-25-180222_1650924154.png",
+      "title": "Your Mother’s Day Gift Guide"
+    },
+    {
+      "id": 3,
+      "image": "https://blogscdn.thehut.net/app/uploads/sites/1160/2022/04/webimage-C1EFE575-5DC1-4A4D-96F6A11C36EC022D_1650052892.png",
+      "title": "Conscious Beauty: A More Mindful Approach to Your Routine"
+    },
+    {
+      "id": 4,
+      "image": "https://blogscdn.thehut.net/app/uploads/sites/1160/2021/02/0316_THG0034711_DS_APRIL_22_SHOT_1649086862-593x392.jpg",
+      "title": "Which SkinCeuticals Vitamin C Serum Is Right for You?"
+    },
+    {
+      "id": 5,
+      "image": "https://static.thcdn.com/images/small/webp/widgets/208-us/12/how_to_pick_eltamd_sunscreen-091512.jpg",
+      "title": "How to Pick the Right EltaMD Sunscreen for You"
+    },
+    {
+      "id": 6,
+      "image": "https://static.thcdn.com/images/small/webp/widgets/208-us/03/spring-skincare-routine-082303.jpg",
+      "title": "Your Spring Skin Care Routine with Nazanin Saedi, MD"
+    },
+    {
+      "id": 7,
+      "image": "https://static.thcdn.com/images/small/webp/widgets/208-us/40/skinceuticals-products-widget-110940.jpg",
+      "title": "7 Overnight Treatments for Super Glowy Skin"
+    },
+    {
+      "id": 8,
+      "image": "https://static.thcdn.com/images/small/webp/widgets/208-us/19/original-skincare-order-073119.jpg",
+      "title": "In What Order Do I Apply My Skin Care Products?"
+    }
   ],
   "cartProducts": [
-   
+    {
+      "id": 2,
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12596429-3594871019700125.jpg",
+      "title": "SkinMedica TNS Advanced+ Serum (1 oz.)",
+      "MSRP": 295,
+      "price": 250.75,
+      "reviews": 221,
+      "qty": 1
+    },
+    {
+      "id": 3,
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11290631-5864870995720591.jpg",
+      "title": "SkinMedica HA5 Rejuvenating Hydrator (2 oz.)",
+      "MSRP": 184,
+      "price": 156.4,
+      "reviews": 507,
+      "qty": 1
+    }
   ]
-
 }

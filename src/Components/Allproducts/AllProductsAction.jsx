@@ -20,15 +20,27 @@ export const getAllData=()=>(dispatch)=>{
                     console.log(error);
                 })
 }
+export const getCartData=()=>(dispatch)=>{
+   axios.get("http://localhost:8080/cartProducts")
+        .then(function (response) {
+            // handle success
+            console.log(response.data);
+            dispatch({
+                type : "CART_PRODUCTS", payload:response.data})
+               })
+                .catch(function (error) {
+                    // handle error
+                    console.log(error);
+                })
+}
 
 export const postProductsData=(payload)=>(dispatch)=>{
     axios.post("http://localhost:8080/cartProducts",payload)
-         .then(function (response) {
-             // handle success
-             console.log(response.data);
-             dispatch({
-                 type:POST_CART_PRODUCTS, payload:payload})
-                })
+        .then(function (response) {
+            // handle success
+            console.log(response.data);
+            dispatch({type : "CART_PRODUCTS", payload:payload})
+        })
                  .catch(function (error) {
                      // handle error
                      console.log(error);

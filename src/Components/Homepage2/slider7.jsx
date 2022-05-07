@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
-// import { getblogProductsData } from "../redux/action";
+import { getblogProductsData } from "../redux/action";
 import { useEffect } from "react";
 import ArrowBackIosNewSharpIcon from '@mui/icons-material/ArrowBackIosNewSharp';
 import ArrowForwardIosSharpIcon from '@mui/icons-material/ArrowForwardIosSharp';
@@ -17,7 +17,7 @@ console.log(products)
 
 
 useEffect(()=>{
-    // dispatch(getblogProductsData())
+    dispatch(getblogProductsData())
 },[dispatch])
 
   
@@ -35,7 +35,7 @@ useEffect(()=>{
     };
     return (
         <>
-        <h1 style={{fontSize:"22px",marginTop:"2%",fontWeight:"500"}}>From The Blog</h1>
+        <h1 style={{fontSize:"22px",marginTop:"2%",fontWeight:"500",textAlign:"center"}}>From The Blog</h1>
         <div className="slider2flex_div">
        <ArrowBackIosNewSharpIcon onClick={()=>sliderref.current.slickPrev()} className="arrowbutt1"/>
       <div className="slider3_mainDiv">
@@ -44,12 +44,11 @@ useEffect(()=>{
         products.map((item)=>(
             <div className="div" key={item.id}>
                 <div >
-                   <img src={item.image} alt="" style={{width:"80%"}} />
+                   <img src={item.image} alt="" style={{width:"80%",height:"170px"}} />
                 </div>
                 <div >
                    <h6 style={{fontSize:"14px",fontWeight:"600",color:"black",textDecoration:"underline"}}>{item.title}</h6>
                    </div>
-              
                
             </div>
         ))

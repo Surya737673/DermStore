@@ -116,6 +116,7 @@ display: flex;
 align-items: center;
 width: 120px;
 justify-content: space-around;
+border:1px solid black;
 `;
 // --------------------------------------------------------------------------------
 export const TABLE = styled.table`

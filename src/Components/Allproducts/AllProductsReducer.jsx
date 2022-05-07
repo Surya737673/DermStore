@@ -2,7 +2,10 @@
 import { GET_ALL_DATA } from "./AllProductsAction";
 import { SORT_DATA } from "./AllProductsAction";
 
-const initState={allProductsData:[]}
+const initState = {
+    allProductsData: [],
+    cart : [],
+}
 
 
 const reducer = (state=initState, { type, payload }) => {
@@ -16,7 +19,11 @@ const reducer = (state=initState, { type, payload }) => {
               return {
                 ...state ,allProductsData:payload
               }
-        
+        case "CART_PRODUCTS":
+            return {
+                ...state,
+                cart : [...state.cart,payload]
+            }
         default:
             return state
     }

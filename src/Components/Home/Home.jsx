@@ -9,8 +9,13 @@ import { Slider5 } from '../Homepage2/Slider5';
 import { Slider6 } from '../Homepage2/slider6';
 import { Featurebrands } from '../Homepage2/Featurebrands';
 import { Slider7 } from '../Homepage2/slider7';
-
+import { useDispatch } from "react-redux";
+import { getCartData } from "../Allproducts/AllProductsAction";
 export const Home = () => {
+  const dispatch = useDispatch();
+  React.useEffect(() => {
+    dispatch(getCartData())
+  },[])
   return (
       <>
     <Navbar/>

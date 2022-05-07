@@ -8,7 +8,7 @@ const rootReducer=combineReducers({
   productsoftrending:Reducer,
   productsofarrival:Reducer,
   productsofblog:Reducer
-
+  
 })
 
 

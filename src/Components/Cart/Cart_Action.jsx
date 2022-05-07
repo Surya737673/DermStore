@@ -4,8 +4,8 @@ import axios from "axios";
 export const GET_CART_PRODUCTS = "GET_CART_PRODUCTS";
 
 // Action Creators
-export const getCartProducts = (payload) => (dispatch) => {
-    axios.get(`http://localhost:8080/${payload}`)
+export const getCartProducts = () => (dispatch) => {
+    axios.get(`http://localhost:8080/cartProducts`)
         .then(function (response) {
             console.log(response.data);
             dispatch({type : GET_CART_PRODUCTS,payload : response.data})

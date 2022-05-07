@@ -4,13 +4,15 @@ import { AiFillLock } from "react-icons/ai";
 import { Link } from 'react-router-dom';
 import { AiFillBell } from "react-icons/ai";
 import { BsCheckLg } from "react-icons/bs";
+import { useNavigate } from 'react-router-dom';
 const OffersInCart = () => {
+    const navigate = useNavigate();
     return (
       <div style={{marginTop: "40px"}}>
             <Container>
                 <div>
                 <p>Your Cart</p>
-                <Button padding="8px 30px"><span><AiFillLock /></span>CHECKOUT SECURELY NOW</Button>
+                <Button onClick={() => navigate("/checkout")} padding="8px 30px"><span><AiFillLock /></span>CHECKOUT SECURELY NOW</Button>
                 </div>
                 <ColoredBox textColor="#267BB5" linkColor="#F7A193" iconBackGround="#267BA5">
                     <section><AiFillBell /></section>

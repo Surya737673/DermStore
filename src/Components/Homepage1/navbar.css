@@ -33,6 +33,8 @@
     display: flex;
     margin-top: 70%;
     margin-left: 250%;
+    text-decoration: none;
+    color: black;
 }
 .head2{
      margin-top: -3%;

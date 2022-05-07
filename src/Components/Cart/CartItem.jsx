@@ -9,7 +9,7 @@ const CartItem = ({ image, title, qty, price, id }) => {
   return (
     <>
           <tr>
-              <td><img src={image} alt="pic" /></td>
+              <td><img width="100px" height="100px"src={image} alt="pic" /></td>
               <td>
                   <p>{title}</p>
                   <p>In Stock - Usualy dispatched within 24 hours</p>

@@ -9,7 +9,7 @@ export const Featurebrands = () => {
     </div>
     <div>
      <div>
-         <h1>Featured Brands</h1>
+         <h1 style={{textAlign: "center"}}>Featured Brands</h1>
      </div>
      <div style={{display:"flex",justifyContent:"space-around",marginTop:"5%",cursor:'pointer'}}>
          <img src="https://static.thcdn.com/images/small/webp/widgets/208-us/14/original-obagi_logo-105214.png" alt="" style={{width:"10%",marginLeft:"1%",height:"130px"}}/>
@@ -21,10 +21,10 @@ export const Featurebrands = () => {
      </div>
     </div>
     <div style={{marginTop:"6%"}}>
-        <iframe src='https://s1.thcdn.com/productvideo/12902717/dermstore_60sec_16x9_new.mp4' style={{height:"700px",width:"96%",border:"none"}}></iframe>
+        {/* <iframe src='https://s1.thcdn.com/productvideo/12902717/dermstore_60sec_16x9_new.mp4' style={{height:"700px",width:"96%",border:"none"}}></iframe> */}
     </div>
-    <div>
-        <h2 style={{fontSize:"25px",fontFamily:"sans-serif",fontWeight:"lighter"}}>#MyDermstoreGlow</h2>
+    <div style={{padding: "20px 100px"}}>
+        <h2 style={{fontSize:"25px",fontFamily:"sans-serif",fontWeight:"lighter",textAlign:"center",margin: "20px 0px"}}>#MyDermstoreGlow</h2>
         <p style={{fontSize:"14px",fontFamily:"sans-serif",textAlign:"center"}}>We care about what goes on your skin, because of what’s within. Our assortment is top-rated, curated & authenticated—bringing you the highest quality products and straight-from-the-experts info to help you navigate all things beauty and skin care. Join the conversation on Instagram with #MyDermstoreGlow—show us your favorite #Dermstore finds that help you care for the skin you’re in! We’re excited to feature our community’s must-haves all season long.</p>
     </div>
     <div style={{marginTop:"2%"}}>

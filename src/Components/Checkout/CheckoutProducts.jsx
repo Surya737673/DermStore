@@ -29,13 +29,13 @@ const CheckoutProducts = () => {
           <div className='two'>
               {myState.map(elem => {
                   return (
-                      <div key={elem.id}>
+                      <div style={{marginTop:"10px"}} key={elem.id}>
                           <div>
-                              <img src={elem.image} alt="" />
+                              <img style={{marginRight:"10px"}} width="80px" height="80px" src={elem.image} alt="" />
                           </div>
                           <div>
                               <p>{elem.title}</p>
-                              <p>{elem.price* elem.qty}</p>
+                              <p>${elem.price* elem.qty}</p>
                           </div>
                           
                       </div>

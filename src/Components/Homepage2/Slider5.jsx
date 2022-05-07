@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
-// import { gettrendingProductsData } from "../redux/action";
+import { gettrendingProductsData } from "../redux/action";
 import { useEffect } from "react";
 import ArrowBackIosNewSharpIcon from '@mui/icons-material/ArrowBackIosNewSharp';
 import ArrowForwardIosSharpIcon from '@mui/icons-material/ArrowForwardIosSharp';
@@ -17,7 +17,7 @@ console.log(products)
 
 
 useEffect(()=>{
-    // dispatch(gettrendingProductsData())
+    dispatch(gettrendingProductsData())
 },[dispatch])
 
   
@@ -32,7 +32,7 @@ useEffect(()=>{
     };
     return (
         <>
-        <h1 style={{fontSize:"20px",marginTop:"10%",fontWeight:"500"}}>Now Trending</h1>
+        <h1 style={{fontSize:"20px",marginTop:"10%",fontWeight:"500",textAlign:"center"}}>Now Trending</h1>
         <div className="slider2flex_div">
        <ArrowBackIosNewSharpIcon onClick={()=>sliderref.current.slickPrev()} className="arrowbutt1"/>
       <div className="slider3_mainDiv">

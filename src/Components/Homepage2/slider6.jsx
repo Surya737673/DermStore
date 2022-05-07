@@ -2,12 +2,12 @@ import React from "react";
 import Slider from "react-slick";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
-// import { getarrivalProductsData } from "../redux/action";
+import { getarrivalProductsData } from "../redux/action";
 import { useEffect } from "react";
 import ArrowBackIosNewSharpIcon from '@mui/icons-material/ArrowBackIosNewSharp';
 import ArrowForwardIosSharpIcon from '@mui/icons-material/ArrowForwardIosSharp';
 import { useRef } from "react";
-
+import { postProductsData } from '../Allproducts/AllProductsAction';
 export const Slider6=()=>{
 
     const sliderref=useRef(null)
@@ -17,7 +17,7 @@ console.log(products)
 
 
 useEffect(()=>{
-    // dispatch(getarrivalProductsData())
+    dispatch(getarrivalProductsData())
 },[dispatch])
 
   
@@ -54,11 +54,11 @@ useEffect(()=>{
                 <div >
                    <h6 style={{fontSize:"16px",fontWeight:"lighter",color:"black"}}>{item.title}</h6>
                    </div>
-                  <button style={{width:"30%",marginTop:"2%",fontWeight:"lighter"}}>New Arrival</button>
+                  
                    <p style={{fontSize:"14px",fontWeight:"bold",}}>Price:${item.price}</p>
                 
                 <div className="slider_button">
-                <button style={{width:"98%",fontSize:"16px",backgroundColor:"black",color:"white",height:"50px"}}>QUICKBUY</button>
+                <button  onClick={()=> dispatch( postProductsData(item))} style={{width:"98%",fontSize:"16px",backgroundColor:"black",color:"white",height:"50px"}}>QUICKBUY</button>
                 </div>
                
             </div>

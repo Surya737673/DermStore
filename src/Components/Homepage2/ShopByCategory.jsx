@@ -23,7 +23,7 @@ background-color:white;
 export const ShopByCategory = () => {
   return (
     <div>
-        <h1 style={{fontSize:"20px",marginTop:"3%",fontWeight:"500"}}>Shop By Category</h1>
+        <h1 style={{fontSize:"20px",marginTop:"3%",fontWeight:"500",textAlign:"center"}}>Shop By Category</h1>
         <div style={{display:"flex",justifyContent:"space-around",marginTop:"2%"}}>
        <BUTTON>SKIN CARE</BUTTON>
        <BUTTON>SUNSCREEN</BUTTON>

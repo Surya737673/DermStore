@@ -3,7 +3,7 @@ import React  from "react";
 import Slider from "react-slick";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect, useRef } from "react";
-import {getProductsData} from "../redux/action"
+// import {getProductsData} from "../redux/action"
 import "./homepage2.css"
 import ArrowBackIosNewSharpIcon from '@mui/icons-material/ArrowBackIosNewSharp';
 import ArrowForwardIosSharpIcon from '@mui/icons-material/ArrowForwardIosSharp';
@@ -13,12 +13,12 @@ import { Link } from "react-router-dom";
 
 export const Slider2=()=> {
  const sliderref=useRef(null)
-const products=useSelector((state)=>(state.productsofskinMedica.productsofskinMedica))
+// const products=useSelector((state)=>(state.productsofskinMedica.productsofskinMedica))
 const dispatch=useDispatch()
 
 
 useEffect(()=>{
-dispatch(getProductsData())
+// dispatch(getProductsData())
 },[dispatch])
   
     const settings = {
@@ -44,7 +44,7 @@ dispatch(getProductsData())
       <ArrowBackIosNewSharpIcon  onClick={()=>sliderref.current.slickPrev()} className="arrowbutt1" />
       <div className="slider2_maindiv">
         <Slider ref={sliderref} {...settings}>
-        {
+        {/* {
           products.map((item)=>( 
               <div className="div" key={item.id}>
                 <div className="img_div">
@@ -62,7 +62,7 @@ dispatch(getProductsData())
            
           
           ))
-        }
+        } */}
         </Slider>
       </div>
       <ArrowForwardIosSharpIcon   onClick={()=>sliderref.current.slickNext()} className="arrowbutt1"/>

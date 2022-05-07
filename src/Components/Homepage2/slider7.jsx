@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
-import { getblogProductsData } from "../redux/action";
+// import { getblogProductsData } from "../redux/action";
 import { useEffect } from "react";
 import ArrowBackIosNewSharpIcon from '@mui/icons-material/ArrowBackIosNewSharp';
 import ArrowForwardIosSharpIcon from '@mui/icons-material/ArrowForwardIosSharp';
@@ -17,7 +17,7 @@ console.log(products)
 
 
 useEffect(()=>{
-    dispatch(getblogProductsData())
+    // dispatch(getblogProductsData())
 },[dispatch])
 
   

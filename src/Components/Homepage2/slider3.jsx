@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
-import { getBestProductsData } from "../redux/action";
+// import { getBestProductsData } from "../redux/action";
 import { useEffect } from "react";
 import ArrowBackIosNewSharpIcon from '@mui/icons-material/ArrowBackIosNewSharp';
 import ArrowForwardIosSharpIcon from '@mui/icons-material/ArrowForwardIosSharp';
@@ -11,14 +11,14 @@ import { useRef } from "react";
 export const Slider3=()=>{
 
     const sliderref=useRef(null)
-    const products=useSelector((state)=>(state.productsofbestsellers.productsofbestsellers))
+    // const products=useSelector((state)=>(state.productsofbestsellers.productsofbestsellers))
 const dispatch=useDispatch()
-console.log(products)
+// console.log(products)
 
 
 useEffect(()=>{
-    dispatch(getBestProductsData())
-},[dispatch])
+    // dispatch(getBestProductsData())
+},[])
 
   
     const settings = {
@@ -38,7 +38,7 @@ useEffect(()=>{
        <ArrowBackIosNewSharpIcon onClick={()=>sliderref.current.slickPrev()} className="arrowbutt1"/>
       <div className="slider3_mainDiv">
         <Slider  ref={sliderref} {...settings}>
-            {
+            {/* {
         products.map((item)=>(
             <div className="div" key={item.id}>
                 <div className="slider3_imgdiv">
@@ -56,7 +56,7 @@ useEffect(()=>{
                
             </div>
         ))
-        }
+        } */}
         </Slider>
             
       </div>

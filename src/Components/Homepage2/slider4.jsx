@@ -3,7 +3,7 @@ import React  from "react";
 import Slider from "react-slick";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect, useRef } from "react";
-import {getNeocuticsProductsData} from "../redux/action"
+// import {getNeocuticsProductsData} from "../redux/action"
 import "./homepage2.css"
 import ArrowBackIosNewSharpIcon from '@mui/icons-material/ArrowBackIosNewSharp';
 import ArrowForwardIosSharpIcon from '@mui/icons-material/ArrowForwardIosSharp';
@@ -12,12 +12,12 @@ import ArrowForwardIosSharpIcon from '@mui/icons-material/ArrowForwardIosSharp';
 
 export const Slider4=()=> {
  const sliderref=useRef(null)
-const products=useSelector((state)=>(state.productsofneocutis.productsofneocutis))
+// const products=useSelector((state)=>(state.productsofneocutis.productsofneocutis))
 const dispatch=useDispatch()
 
 
 useEffect(()=>{
-dispatch(getNeocuticsProductsData())
+// dispatch(getNeocuticsProductsData())
 },[dispatch])
   
     const settings = {

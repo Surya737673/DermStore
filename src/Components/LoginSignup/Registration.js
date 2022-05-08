@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Login from './Login'
 import { Alert } from "react-bootstrap";
 
+import "../../App.css";
+
 function Registration() {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
@@ -35,7 +37,7 @@ function Registration() {
       }
 
       return (
-        <>
+        <div style={{display: 'flex',justifyContent: 'center',marginTop:"40px"}}>
      
             <div className="main">
               {" "}
@@ -116,7 +118,7 @@ function Registration() {
           )}
         </div>
     
-    </>
+    </div>
   );
 }
 

@@ -1,7 +1,6 @@
 import React from 'react'
 import {Link} from "react-router-dom"
 import styled from 'styled-components'
-import SearchIcon from '@mui/icons-material/Search';
 import PermIdentitySharpIcon from '@mui/icons-material/PermIdentitySharp';
 import LocalMallOutlinedIcon from '@mui/icons-material/LocalMallOutlined';
 import LocalShippingOutlinedIcon from '@mui/icons-material/LocalShippingOutlined';
@@ -55,7 +54,7 @@ export const Navbar = () => {
             <Input type="search" placeholder='Search for a Product or Brand...'></Input>
             </div >
             <div style={{marginLeft:"44%",marginTop:"11%"}}>
-            <SearchIcon style={{height:"36px",width:"50px"}} />
+         
             </div>
         </div>
          <div className='accdropdown'>
@@ -64,10 +63,10 @@ export const Navbar = () => {
                 <h4 className='head1'>Account</h4>
         </div>
         <DIV height="400px" width="250%" top="40" marginTop="30%" >
-            <Link to="/LOGIN">
+            <Link to="/login">
                 <button className='butt1'style={{marginTop:100,cursor:"pointer"}}>Login</button>
                 </Link>
-                <Link to="signup">
+                <Link to="/signup">
                 <button className='butt2' style={{cursor:"pointer"}}>Register</button>
                 </Link>
                 <p>My Favourites</p>
@@ -92,7 +91,7 @@ export const Navbar = () => {
       </div>
       <Link to="" className='Linkcss'>Browse By</Link>
       <Link to="" className='Linkcss'>BestSellers</Link>
-      <Link to="" className='Linkcss'> SkinCare</Link>
+      <Link to="/skincare" className='Linkcss'> SkinCare</Link>
       <Link to="" className='Linkcss'> Makeup</Link>
       <Link to="/haircare" className='Linkcss'>Hair Care</Link>
       <Link to="" className='Linkcss'> Bath & Body</Link>
@@ -103,7 +102,6 @@ export const Navbar = () => {
       <Link to="" className='Linkcss'> New</Link>
       <Link to="" className='Linkcss'> Skin101</Link> 
     </div>
-    <hr></hr>
     </div>
    
     </div>

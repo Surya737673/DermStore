@@ -5,7 +5,8 @@ import { BsX } from "react-icons/bs";
 import { deleteProduct ,updateQty} from "./Cart_Action";
 const CartItem = ({ image, title, qty, price, id }) => {
     const myState = useSelector((state) => state.cartReducer.cartProducts)
-    const dispatch = useDispatch();
+  const dispatch = useDispatch();
+  let Price = (price * qty).toFixed(2);
   return (
     <>
           <tr>
@@ -20,7 +21,7 @@ const CartItem = ({ image, title, qty, price, id }) => {
                   <p>{qty}</p>
                   <button onClick={()=> dispatch(updateQty(id,qty,1))}>+</button>
               </TD>
-              <td>{`$${price * qty}`}</td>
+              <td>{`$${Price}`}</td>
               <td><span onClick={()=> dispatch(deleteProduct(id,myState))}><BsX /></span></td>
       </tr>
     </>

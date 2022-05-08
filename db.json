@@ -494,13 +494,223 @@
       "title": "In What Order Do I Apply My Skin Care Products?"
     }
   ],
+  "skinCare": [
+    {
+      "id": 1,
+      "title": "GRANDE Cosmetics GrandeLASH-MD Lash Enhancing Serum",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13187846-8284878568539867.jpg",
+      "price": 68,
+      "qty": 1
+    },
+    {
+      "id": 2,
+      "title": "ILIA Limitless Lash Mascara (Various Sizes)",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12902688-1514869963703809.jpg",
+      "price": 13,
+      "qty": 1
+    },
+    {
+      "id": 3,
+      "title": "jane iredale Pure Pressed Blush 3.7g (Various Shades)",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13674838-2504939183735374.jpg",
+      "price": 32,
+      "qty": 1
+    },
+    {
+      "id": 4,
+      "title": "jane iredale Smooth Affair Brightening Face Primer (1.7 fl. oz.)",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/10877675-1204892801854575.jpg",
+      "price": 50,
+      "qty": 1
+    },
+    {
+      "id": 5,
+      "title": "RevitaLash Advanced Eyelash Conditioner - 3 Month Supply",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11370772-1364878265774365.jpg",
+      "price": 98,
+      "qty": 1
+    },
+    {
+      "id": 6,
+      "title": "By Terry Baume de Rose Lip Care (10 g.)",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11307246-1304925386448610.jpg",
+      "price": 60,
+      "qty": 1
+    },
+    {
+      "id": 7,
+      "title": "jane iredale Just Kissed Lip and Cheek Stain (0.1 oz.)",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11493615-1564871517358554.jpg",
+      "price": 32,
+      "qty": 1
+    },
+    {
+      "id": 8,
+      "title": "DHC Lip Cream (0.05 oz.) best product",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11207544-1114918471847064.jpg",
+      "price": 90,
+      "qty": 1
+    },
+    {
+      "id": 9,
+      "title": "DHC Mascara Perfect Pro Double Protection - Black (0.17 oz.)",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11207548-1814918472022486.jpg",
+      "price": 19,
+      "qty": 1
+    },
+    {
+      "id": 10,
+      "title": "Weleda Skin Food Lip Butter (0.27 fl. oz.)",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12013998-9174944089061762.jpg",
+      "price": 60,
+      "qty": 1
+    },
+    {
+      "id": 11,
+      "title": "ILIA Super Serum Skin Tint SPF 40 (1 fl.oz)",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12905951-2144869966339537.jpg",
+      "price": 48,
+      "qty": 1
+    },
+    {
+      "id": 12,
+      "title": "RevitaLash RevitaBrow Advanced Eyebrow Conditioner - 4 Month",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/10560418-1514911743023953.jpg",
+      "price": 11,
+      "qty": 1
+    },
+    {
+      "id": 13,
+      "title": "Perricone MD No Makeup Blush best product",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12104286-2034786788446706.jpg",
+      "price": 35,
+      "qty": 1
+    },
+    {
+      "id": 14,
+      "title": "COOLA Classic Liplux Organic Hydrating Lip Oil Sunscreen SPF 30",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12903111-1974871250806430.jpg",
+      "price": 18,
+      "qty": 1
+    },
+    {
+      "id": 15,
+      "title": "Eyeko Lash Alert Mascara - Black (8 ml.)",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11653526-1214904426547189.jpg",
+      "price": 20,
+      "qty": 1
+    },
+    {
+      "id": 16,
+      "title": "ILIA Nightlite Bronzing Powder (0.42 oz.)",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12905980-1574869966464844.jpg",
+      "price": 34,
+      "qty": 1
+    },
+    {
+      "id": 17,
+      "title": "jane iredale PureBrow Brow Gel (0.17 oz.)",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11454171-2124741436293347.jpg",
+      "price": 26,
+      "qty": 1
+    },
+    {
+      "id": 18,
+      "title": "DHC Liquid Eyeliner EX - Black (0.01 fl. oz.)",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11207545-1194877008327185.jpg",
+      "price": 20,
+      "qty": 1
+    },
+    {
+      "id": 19,
+      "title": "GRANDE Cosmetics GrandeLIPS Plumping Liquid Lipstick",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12705617-1924808288015067.jpg",
+      "price": 25,
+      "qty": 1
+    },
+    {
+      "id": 20,
+      "title": "Dermablend Flawless Creator Multi-Use Liquid Foundation (1 fl. oz.)",
+      "image": "https://static.thcdn.com/images/large/webp/productimg/1600/1600/11527835-1654633328833086.jpg",
+      "price": 40,
+      "qty": 1
+    },
+    {
+      "id": 21,
+      "title": "EltaMD UV Elements Tinted Broad-Spectrum SPF 44 (2 oz.)",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11370314-1304944342872775.jpg",
+      "price": 38,
+      "qty": 1
+    },
+    {
+      "id": 22,
+      "title": "Colorescience Sunforgettable® Total Protection™ Face Shield SPF 50 (PA+++) (1.8 fl. oz.)",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11814869-9924866362390772.jpg",
+      "price": 39,
+      "qty": 1
+    },
+    {
+      "id": 23,
+      "title": "Colorescience Sunforgettable® Total Protection™ Brush-On Shield SPF 50 (6 g.)",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12905513-2464866439330233.jpg",
+      "price": 69,
+      "qty": 1
+    },
+    {
+      "id": 24,
+      "title": "RevitaLash Advanced Eyelash Conditioner - 6 Month Supply (0.118 fl. oz.)",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/10560417-1534868371575033.jpg",
+      "price": 15,
+      "qty": 1
+    },
+    {
+      "id": 25,
+      "title": "Avene High Protection Tinted Compact SPF 50 - Beige (0.35 oz.)",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11397659-1154871067742002.jpg",
+      "price": 36,
+      "qty": 1
+    },
+    {
+      "id": 26,
+      "title": "Supergoop!® PLAY Lip Shield SPF 30 Mint 0.5 oz.",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12902964-1694871508225786.jpg",
+      "price": 10,
+      "qty": 1
+    },
+    {
+      "id": 27,
+      "title": "DHC Deep Cleansing Oil (6.7 fl. oz.)dvwddgv",
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11207443-2214866130380732.jpg",
+      "price": 15,
+      "qty": 1
+    }
+  ],
   "cartProducts": [
     {
-      "image": "https://static.thcdn.com/images/small/webp//productimg/original/13716607-1174952624510196.jpg",
-      "price": 28,
-      "title": "Olaplex No.0 Intensive Bond Builder 155ml",
-      "qty": 2,
-      "id": 1
+      "id": 2,
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12596429-3594871019700125.jpg",
+      "title": "SkinMedica TNS Advanced+ Serum (1 oz.)",
+      "MSRP": 295,
+      "price": 250.75,
+      "reviews": 221,
+      "qty": 1
+    },
+    {
+      "id": 3,
+      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11290631-5864870995720591.jpg",
+      "title": "SkinMedica HA5 Rejuvenating Hydrator (2 oz.)",
+      "MSRP": 184,
+      "price": 156.4,
+      "reviews": 507,
+      "qty": 1
+    },
+    {
+      "id": 1,
+      "image": "https://static.thcdn.com/images/medium/webp/widgets/208-us/10/0428-STDCRE-35244-DS-MB-Dermstore-May-Photography-THG0034748-PRIORITY-SHOTS-16-HP_LPSQ_BANNER_676x556-041110.jpg",
+      "title": "SkinCeuticals Triple Lipid Restore 242",
+      "price": 136,
+      "reviews": 1647,
+      "qty": 1
     }
   ]
 }

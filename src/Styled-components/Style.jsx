@@ -179,7 +179,6 @@ input:nth-child(7){
 input:nth-child(10){
   margin-bottom:10px ;
 }
-
 input~p{
   text-decoration: underline;
   font-weight: 100;

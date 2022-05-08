@@ -1,6 +1,8 @@
 import React, { useState } from "react";
-import Home from "./Home";
+import { Home } from "../Home/Home.jsx";
 import { Alert } from "react-bootstrap";
+
+
 
 function Login() {
     const [emaillog, setEmaillog] = useState(" ");
@@ -30,7 +32,7 @@ function Login() {
     }
   
     return (
-      <div>
+      <div style={{display: 'flex',justifyContent: 'center',alignItems: 'center',height: '1'}}>
         {home ? (
           <form onSubmit={handleLogin}>
             <h3>Existing Customers</h3>

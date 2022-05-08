@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import ProductCard from './ProductCard'
-import { postProductsData } from './AllProductsAction'
+import ProductCard from '../Allproducts/ProductCard'
+import { postProductsData } from '../Allproducts/AllProductsAction'
 import styled from 'styled-components'
 
 import axios from 'axios'
@@ -44,7 +44,7 @@ img{
 
 
 
-const Allproduct = () => {
+const Skincare = () => {
 
   const dispatch = useDispatch()
   const selectedProduct = (data) => {
@@ -53,7 +53,7 @@ const Allproduct = () => {
   const [state, setState] = useState([])
   const myState = useSelector((state) => state.reducer.allProductsData)
   const getAllData = () => {
-    axios.get("http://localhost:8080/men")
+    axios.get("http://localhost:8080/skincare")
       .then(function (response) {
         // handle success
         console.log(response.data);
@@ -66,7 +66,7 @@ const Allproduct = () => {
   }
   useEffect(() => {
     // dispatch(getAllData())
-    getAllData("men")
+    getAllData("skincare")
   }, [])
 
   const handleSort = (e) => {
@@ -159,4 +159,4 @@ const Allproduct = () => {
   )
 }
 
-export default Allproduct
+export default Skincare

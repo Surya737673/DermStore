@@ -7,8 +7,8 @@ export const SORT_DATA = "SORT_DATA";
 
 
 // Action Creators
-export const getAllData=()=>(dispatch)=>{
-   axios.get("http://localhost:8080/men")
+export const getAllData=(payload)=>(dispatch)=>{
+   axios.get(`http://localhost:8080/${payload}`)
         .then(function (response) {
             // handle success
             console.log(response.data);

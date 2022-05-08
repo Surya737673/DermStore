@@ -5,6 +5,8 @@ import { getCartProducts } from "./Cart_Action";
 import CartItem from './CartItem';
 import { TABLE ,TD,MainContainer} from "../../Styled-components/Style";
 import GiftSelection from './GiftSelection';
+import { Navbar } from '../Homepage1/Navbar';
+import Footer from '../Footer/Footer';
 const Cart = () => {
   const myState = useSelector((state) => state.cartReducer.cartProducts)
   console.log(myState);
@@ -15,6 +17,7 @@ const Cart = () => {
 
   return (
     <>
+      <Navbar />
       <OffersInCart />
       <MainContainer>
       <TABLE>
@@ -39,7 +42,7 @@ const Cart = () => {
         </div>
   
       </MainContainer>
-
+<Footer />
     </>
   )
 }

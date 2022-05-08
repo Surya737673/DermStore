@@ -496,13 +496,11 @@
   ],
   "cartProducts": [
     {
-      "id": 2,
-      "image": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12596429-3594871019700125.jpg",
-      "title": "SkinMedica TNS Advanced+ Serum (1 oz.)",
-      "MSRP": 295,
-      "price": 250.75,
-      "reviews": 221,
-      "qty": 2
+      "image": "https://static.thcdn.com/images/small/webp//productimg/original/13716607-1174952624510196.jpg",
+      "price": 28,
+      "title": "Olaplex No.0 Intensive Bond Builder 155ml",
+      "qty": 2,
+      "id": 1
     }
   ]
 }

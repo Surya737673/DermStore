@@ -11,6 +11,7 @@ import { Featurebrands } from '../Homepage2/Featurebrands';
 import { Slider7 } from '../Homepage2/slider7';
 import { useDispatch } from "react-redux";
 import { getCartData } from "../Allproducts/AllProductsAction";
+import Footer from '../Footer/Footer';
 export const Home = () => {
   const dispatch = useDispatch();
   React.useEffect(() => {
@@ -27,7 +28,8 @@ export const Home = () => {
     <Slider5/>
     <Slider6/>
     <Featurebrands/>
-    <Slider7/>
+      <Slider7 />
+      <Footer />
     </>
   )
 }

@@ -77,7 +77,7 @@ export const Navbar = () => {
          </DIV>
         </div>
         <div className='cartdropdown'>
-        <Link to="cart" className="cart">
+        <Link to="/cart" className="cart">
             <LocalMallOutlinedIcon style={{height:"30px",width:'50px',marginTop:"15%"}}/>
                           <h4 className='head2' >Cart</h4>   
                           <p>{myState.length}</p>
@@ -94,7 +94,7 @@ export const Navbar = () => {
       <Link to="" className='Linkcss'>BestSellers</Link>
       <Link to="" className='Linkcss'> SkinCare</Link>
       <Link to="" className='Linkcss'> Makeup</Link>
-      <Link to="" className='Linkcss'>Hair Care</Link>
+      <Link to="/haircare" className='Linkcss'>Hair Care</Link>
       <Link to="" className='Linkcss'> Bath & Body</Link>
       <Link to="" className='Linkcss'> Tools & Devices</Link>
       <Link to="" className='Linkcss'> Gifts & Sets</Link>

@@ -5,6 +5,7 @@ import { getAllData, postProductsData } from './AllProductsAction'
 import styled from 'styled-components'
 import { sortProducts } from './AllProductsAction'
 import axios from 'axios'
+import { Navbar } from '../Homepage1/Navbar'
 
 const Grid = styled.div`
 display :grid;
@@ -93,7 +94,9 @@ const Allproduct = () => {
 
 
   return (
-    <div style={{display:"flex",justifyContent: "spaceBetween"  }}>
+    <>
+      <Navbar />
+ <div style={{display:"flex",justifyContent: "spaceBetween", marginTop:"40px"  }}>
         <div  style={{ marginLeft:"20px",width:"800px"}}>
             <div>
               <h3>Brand</h3><hr></hr>
@@ -152,6 +155,8 @@ const Allproduct = () => {
         </Grid>
       </div>
     </div>
+    </>
+   
   )
 }
 

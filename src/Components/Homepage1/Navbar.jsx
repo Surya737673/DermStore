@@ -150,7 +150,7 @@ export const Navbar = () => {
     </div>
     <div className='para'>
         <Link to="" className='Linkcss1'>
-        <p>15% off SkinMedica + extra 20% off auto-replenishment. Receive a free gift when you spend $160+ on the brand. SHOP NOW</p>
+        <p style={{textAlign:"center"}}>15% off SkinMedica + extra 20% off auto-replenishment. Receive a free gift when you spend $160+ on the brand. SHOP NOW</p>
         </Link>
     </div>
     </>

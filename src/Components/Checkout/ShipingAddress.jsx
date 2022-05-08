@@ -1,11 +1,18 @@
 import React from 'react';
 import { ShipingAdd, INPUT, Button, SELECT} from "../../Styled-components/Style";
-import { BsInfoCircleFill,BsCheckCircleFill } from "react-icons/bs";
+import { BsInfoCircleFill, BsCheckCircleFill } from "react-icons/bs";
+import { useNavigate } from 'react-router-dom';
+
 
 const ShipingAddress = () => {
+    const navigate = useNavigate();
+    const handleFormSubmit = () => {
+        alert("Order Placed");
+        navigate("/");
+    }
   return (
       <ShipingAdd>
-          <form action="">
+          <form action="" onSubmit={handleFormSubmit}>
           <div>
                   <p style={{marginBottom:"20px"}}>1. Shiping Address</p>
                   <label htmlFor="country">Country/Region</label>

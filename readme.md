@@ -49,11 +49,11 @@
 
 ## Team Members:-
 
-<h5>1. Team Members Bhupesh Kumawat : Add to Cart and Payment Gateway Functionality.</h5>
-<h5>2. Shweta Mishra : Footer Functionality.</h5>
-<h5>3. Surya Pratap Yadav : Product Page Functionality.</h5>
-<h5>4. Vaibhav Sanjay More : Skin Care Page Functionality.</h5>
-<h5>5. Shravan Kumar : Home Page Functionality.</h5>
-<h5>6. Diksha Sharma : SignUp/Login Functionality.</h5>
+<h4>1. Team Members Bhupesh Kumawat : Add to Cart and Payment Gateway Functionality.</h4>
+<h4>2. Shweta Mishra : Footer Functionality.</h4>
+<h4>3. Surya Pratap Yadav : Product Page Functionality.</h4>
+<h4>4. Vaibhav Sanjay More : Skin Care Page Functionality.</h4>
+<h4>5. Shravan Kumar : Home Page Functionality.</h4>
+<h4>6. Diksha Sharma : SignUp/Login Functionality.</h4>
 
 

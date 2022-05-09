@@ -30,4 +30,12 @@
 <br>
 <img src="https://miro.medium.com/max/1400/1*YhSjMK-sMLQEWZ1c-7e9hg.jpeg" />
 
+## Cart page:-
+<p>Now click on any product [Quick Buy] then the page will be redirected to user’s select page on there user’s can read about the product details and after that if he/she want to buy that product just click on Add to Cart Button and page will redirect to Cart Page.</p>
+<br>
+<br>
+<img src="https://miro.medium.com/max/1400/1*R04qHA6Bm0JPeafCgdY39Q.jpeg" />
+<br>
+<br>
+<p>User can select the quantity as well by clicking on the buttons. Final product will be added accordingly.</p>
 

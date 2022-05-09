@@ -56,4 +56,14 @@
 <h4>5. Shravan Kumar : Home Page Functionality.</h4>
 <h4>6. Diksha Sharma : SignUp/Login Functionality.</h4>
 
+## Learning:-
 
+<h4>1. We all became proficient in reading the code of team members.</h4>
+<h4>2. Our code writing style became cleaner as we had to think while writing code that other team member will be reading.</h4>
+<h4>3. We all learned how to plan a project and execute that.</h4>
+<h4>4. We learnt how to connect front end.</h4>
+<h4>5. We learnt how to implement dynamic routing in a project.</h4>
+<h4>6. We learned some external libraries that reduce the code and provide flexibility.</h4>
+<h4>7. We learned a lot from our team members.</h4>
+
+<p>Overall our experience is great to work with one another. Thanks to all team members.</p>

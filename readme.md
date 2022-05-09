@@ -32,10 +32,28 @@
 
 ## Cart page:-
 <p>Now click on any product [Quick Buy] then the page will be redirected to user’s select page on there user’s can read about the product details and after that if he/she want to buy that product just click on Add to Cart Button and page will redirect to Cart Page.</p>
+<p>User can select the quantity as well by clicking on the buttons. Final product will be added accordingly.</p>
 <br>
 
 <img src="https://miro.medium.com/max/1400/1*R04qHA6Bm0JPeafCgdY39Q.jpeg" />
 <br>
 
-<p>User can select the quantity as well by clicking on the buttons. Final product will be added accordingly.</p>
+## Checkout/payment page:-
+
+<p>Now click on checkout button this cart page redirect to Payment gateway page</p>
+<p>fill all require details by filling your name, address, contact no. Now, it’s time to fill the payment method- Card.</p>
+<br>
+<img src="https://miro.medium.com/max/1400/1*LzJyKu15x9mYoG0rCn23fg.jpeg" />
+<br>
+<p>In the end, user need to fill their card number and other require details to buy that product. By clicking- Submit My Order button, user order’s successfully placed. Hurray!</p>
+
+## Team Members:-
+
+<h3>1. Team Members Bhupesh Kumawat : Add to Cart and Payment Gateway Functionality.</h3>
+<h3>2. Shweta Mishra : Footer Functionality.</h3>
+<h3>3. Surya Pratap Yadav : Product Page Functionality.</h3>
+<h3>4. Vaibhav Sanjay More : Skin Care Page Functionality.</h3>
+<h3>5. Shravan Kumar : Home Page Functionality.</h3>
+<h3>6. Diksha Sharma : SignUp/Login Functionality.</h3>
+
 

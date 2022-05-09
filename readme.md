@@ -49,7 +49,7 @@
 
 ## Team Members:-
 
-<h4>1. Team Members Bhupesh Kumawat : Add to Cart and Payment Gateway Functionality.</h4>
+<h4>1. Bhupesh Kumawat : Add to Cart and Payment Gateway Functionality.</h4>
 <h4>2. Shweta Mishra : Footer Functionality.</h4>
 <h4>3. Surya Pratap Yadav : Product Page Functionality.</h4>
 <h4>4. Vaibhav Sanjay More : Skin Care Page Functionality.</h4>

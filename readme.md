@@ -8,4 +8,13 @@
 <br>
 <img src="https://miro.medium.com/max/3840/1*IlvbBH7ybSjZnd3vVMcImA.png">
 
+## Login Page :- 
+<p>After clicking on Register Button, you will be redirect to Sign Up page on this page user can create account with his/her name, Email and Password. After completing this if user click on Continue button page will redirect to Login Page, now user only have to put his Email and Password and click on Log In button and user will be redirected to Main Home Page.</p>
+<br>
+<br>
+<p>Signup page</p>
+<img src="https://miro.medium.com/max/3840/1*LWcTjcQJxDYIs4GZlxZ37w.png">
+<br>
+<img src="https://miro.medium.com/max/3840/1*rxOxsHpNXAmpvNN_IVWRJQ.png">
+
 
